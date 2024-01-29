@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:virtual_wallet/components/onboarding_component.dart';
 import 'package:virtual_wallet/login/login_registration_option_view.dart';
 import 'package:virtual_wallet/login/login_view.dart';
+import 'package:virtual_wallet/onboarding/onboarding_pages.dart';
 import 'package:virtual_wallet/onboarding/onboarding_view.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark(),
-      home: const LoginView(),
+      home: const OnboardingPages(),
       // const OnboardingComponent(
       //     svgAssetsPath: '/collaboration.svg',
       //     title: 'Your Finances in One Place',
